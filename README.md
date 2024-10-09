@@ -12,12 +12,16 @@
 - [Reference](#reference)
 
 ### Project Overview
+---
 
-This project provides a comprehensive view of the company’s HR metrics, analyzes employee demographics, departmental structures and salaries in order to track diversity, hiring trends and gender equity in salaries. Th findings should help in the future recruitment process.
+This project provides an insight into the company’s HR metrics, analyzes employee demographics, departmental structures and salaries in order to track diversity, hiring trends and gender equity in salaries. The findings should help in the future recruitment process and in the implementation of HR career development strategies.
+Link to the below Dashboard - https://public.tableau.com/app/profile/janina.paszek.minshull/viz/Pear/Dashboard1?publish=yes.
+
+![pear_dashboard](https://github.com/user-attachments/assets/0b776169-f8ad-4b98-84e3-2f0863d4752f)
 
 ### Data Source
 
-The primary source of data used for this analysis is the 'pear_employees_db_sql' file containing detailed HR information about the employees over years (1985 - 2002).
+The primary source of data used for this analysis is the 'pear_employees.csv' file containing HR information about the employees (1985 - 2002) based on relevant SQL tables. This file was modified in Jupyter and exported as an excel file ('pear_employees.xlsx') for the further analysis and the visualization in Tableau Public.
 
 ### Tools
 
