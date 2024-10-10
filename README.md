@@ -1,4 +1,4 @@
-# HR Analysis (Pear)
+# HR Analysis (Pear Inc.)
 
 ## Table of Contents
 
@@ -11,17 +11,18 @@
 - [Recommendation](#recommendation)
 - [Reference](#reference)
 
-### Project Overview
 ---
 
-This project provides an insight into the company’s HR metrics, analyzes employee demographics, departmental structures and salaries in order to track diversity, hiring trends and gender equity in salaries. The findings should help in the future recruitment process and in the implementation of HR career development strategies.
-Link to the below Dashboard - https://public.tableau.com/app/profile/janina.paszek.minshull/viz/Pear/Dashboard1?publish=yes.
+### Project Overview
 
-![pear_dashboard](https://github.com/user-attachments/assets/0b776169-f8ad-4b98-84e3-2f0863d4752f)
+This project provides an insight into the company’s HR metrics, analyzes employee demographics, departmental structures and salaries in order to track diversity, hiring trends and gender equity in salaries. The findings should help in the future recruitment process and in the implementation of HR career development strategies.
+Link to the below Dashboard - https://public.tableau.com/app/profile/janina.paszek.minshull/viz/Pear/Dashboard1?publish=yes
+
+![pear_dashboard](https://github.com/user-attachments/assets/9d1e98b6-e92f-48c1-8e1b-2144bb2b476c)
 
 ### Data Source
 
-The primary source of data used for this analysis is the 'pear_employees.csv' file containing HR information about the employees (1985 - 2002) based on relevant SQL tables. This file was modified in Jupyter and exported as an excel file ('pear_employees.xlsx') for the further analysis and the visualization in Tableau Public.
+The primary source of data used for this analysis is the 'pear_employees.csv' file containing HR information about the employees (1985 - 2002) based on SQL tables. This file was modified in Jupyter and exported as an excel file ('pear_employees.xlsx') for further analysis and visualization in Tableau Public.
 
 ### Tools
 
@@ -35,24 +36,25 @@ In the initial data preparation phase I performed the following tasks:
 - Data loading and inspection.
 - Handling missing values.
 - Data cleaning and formatting.
+- Creating additional columns (calculations)
 
 ### Data Analysis
 
 Data analysis involved exploring HR data in order to answer key questions, such as:
 - Does company hire more men or women?
 - Do the women have an equal representation in every department and every position in the company?
-- What is the age of the company's employees? What is the age trend while hiring new employees?
+- What is the age group of the company's employees? What is the age trend while hiring new employees?
 - Is there any pay gap between men and women? Which departments offer the highest/lower salaries?
   
 ### Results
 
 The analysis result as summarized as follows:
 
-The company began hiring women in 1987, yet there remains a significant underrepresentation of female employees, who make up only 19% of the total workforce as we see in 2002. Certain departments, such as Quality Management, Sales, and Human Resources, as well as positions like Manager and Technique Leader, have no female employees at all.
+The company began hiring women in 1987, yet there remains a significant underrepresentation of female employees, who make up only 19% of the total workforce. Certain departments, such as Quality Management, Sales and Human Resources, as well as the positions like Manager and Technique Leader have no female representation at all.
 
 The active employees are between 26 - 50 years old (men) and 32 - 48 years old (women), the trend shows the company tends to hire older employees, but more information is needed to assess whether there is a balance between hiring experienced (older) and younger employees. 
 
-Teh salary growth of men suprapasses that of women in some cases and certain departments show a disparity in average salaries between genders (e.g. Development). Currently both men and women receive the highest salaries in the Marketing department, while the lowest salaries are observed in HR department. 
+The salary growth of men suprapasses that of women in some cases and certain departments show a disparity in average salaries between genders (e.g. Development). Currently both men and women receive the highest salaries in the Marketing department, while the lowest salaries are observed in HR department. 
 
 ### Recommendation
 
