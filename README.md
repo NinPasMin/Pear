@@ -18,7 +18,7 @@
 This project provides an insight into the company’s HR metrics, analyzes employee demographics, departmental structures and salaries in order to track diversity, hiring trends and gender equity in salaries. The findings should help in the future recruitment process and in the implementation of HR career development strategies.
 Link to the below Dashboard - https://public.tableau.com/app/profile/janina.paszek.minshull/viz/Pear/Dashboard1?publish=yes
 
-![pear_dashboard](https://github.com/user-attachments/assets/9d1e98b6-e92f-48c1-8e1b-2144bb2b476c)
+![pear_dashboard](https://github.com/user-attachments/assets/afacae5a-78e1-4460-b963-6ef91bf732a2)
 
 ### Data Source
 
@@ -34,7 +34,7 @@ The primary source of data used for this analysis is the 'pear_employees.csv' fi
 
 In the initial data preparation phase I performed the following tasks:
 - Data loading and inspection.
-- Handling missing values.
+- Reducing the size of the data.
 - Data cleaning and formatting.
 - Creating additional columns (calculations)
 
@@ -43,24 +43,21 @@ In the initial data preparation phase I performed the following tasks:
 Data analysis involved exploring HR data in order to answer key questions, such as:
 - Does company hire more men or women?
 - Do the women have an equal representation in every department and every position in the company?
-- What is the age group of the company's employees? What is the age trend while hiring new employees?
+- What is the age group of the company's employees? 
 - Is there any pay gap between men and women? Which departments offer the highest/lower salaries?
   
 ### Results
 
-The analysis result as summarized as follows:
-
-The company began hiring women in 1987, yet there remains a significant underrepresentation of female employees, who make up only 19% of the total workforce. Certain departments, such as Quality Management, Sales and Human Resources, as well as the positions like Manager and Technique Leader have no female representation at all.
-
-The active employees are between 26 - 50 years old (men) and 32 - 48 years old (women), the trend shows the company tends to hire older employees, but more information is needed to assess whether there is a balance between hiring experienced (older) and younger employees. 
-
-The salary growth of men suprapasses that of women in some cases and certain departments show a disparity in average salaries between genders (e.g. Development). Currently both men and women receive the highest salaries in the Marketing department, while the lowest salaries are observed in HR department. 
+The analysis result is summarized as follows:
+1. The company has a notable gender disparity, with 60.9% male employees and 39.1% female employees. This gap is consistent across various departments and positions, with the largest gender disparity in departments like Research and Quality Management, where males dominate. 
+2. Most employees are between the ages of 35 to 45, with a median age of 44 (the same for men and women). The company also has an experienced workforce, with an average of 13.6 years of work experience. There is a higher concentration of male employees with more years of work experience compared to their female counterparts. 
+The salary growth of men and women shows similar trend over the past few years with women average salary slightly surpassing the male one. Currently all departments show a disparity in average salaries between genders favouring women apart from Marketing department where male salaries are higher then women's. Currently both men and women receive the highest salaries in  Finance, Sales and Marketing departments, while the lowest salaries are observed in HR and Quality Management departments. 
 
 ### Recommendation
 
-1. Gender Diversity Improvement - the recommendation is to implement diversity initiatives, especially in departments and roles where women are underrepresented. This includes targeted recruitment, mentorship programs for women in technical roles and career development support.
-2. Aim for a balance between hiring younger employees to bring fresh perspectivee and more experienced workers to bring stability and expertise. Focus on development programs to nurture talent across all age groups.
-3. Conduct a deeper pay equity analysis to ensure fair compensation across genders. Implement policies to address any gender pay gaps and monitor salary progression over time to ensure equitable growth for both men and women.
+1. Gender Diversity Improvement - the recommendation is to implement diversity initiatives, especially in departments and roles where women are underrepresented. This includes targeted recruitment, mentorship programs and career development support aimed at increasing retention and advancement opportunities for women. 
+2. With a relatively high median age and experienced workforce, the company may face a wave of retirements in the next 5-10 years. Succession planning, leadership development programs, and hiring younger talent will be important for long-term sustainability.
+3. Conduct a deeper pay equity analysis to ensure fair compensation across genders. HR should focus on ensuring that employees in similar roles receive equal pay, regardless of gender - clear communication regarding promotion criteria and pay increases will ensure that salary growth aligns with performance and experience, minimizing disparities. Additionally, implementing formalized career pathways can provide all employees with equal opportunities for advancement. Implement policies to address any gender pay gaps and monitor salary progression over time to ensure equitable growth for both men and women.
 4. Revisit recruitment strategies to remove potential biases in the hiring process. Implement diverse hiring panels, blind recruitment processes and actively seek diverse candidates for all roles.
 
 ### Reference
