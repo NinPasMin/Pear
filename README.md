@@ -1,4 +1,4 @@
-# HR Analysis (Pear Inc.)
+# HR Data Analysis (Pear Inc.)
 
 ## Table of Contents
 
